@@ -10,11 +10,11 @@ Your job is to return the middle character of a word. If the word's length is od
 
 ### Acceptance Criteria
 
-get_middle("test") # => "es"
-get_middle("testing") # => "t"
-get_middle("middle") # => "dd"
-get_middle("A") # => "A"
-get_middle("of") # => "of"
+getMiddle("test") # => "es"
+getMiddle("testing") # => "t"
+getMiddle("middle") # => "dd"
+getMiddle("A") # => "A"
+getMiddle("of") # => "of"
 
 ### Test Plan & Notes
 
