@@ -17,5 +17,9 @@ describe("Middle", function() {
     it("returns ab when given ab", function() {
       expect(middle.getMiddle("ab")).toBe("ab");
     });
+
+    it("returns b when given abc", function() {
+      expect(middle.getMiddle("abc")).toBe("b");
+    });
   });
 });
