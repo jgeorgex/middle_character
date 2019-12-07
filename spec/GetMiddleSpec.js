@@ -6,8 +6,8 @@ describe("Middle", function() {
   });
 
   describe("#getMiddle", function() {
-    it("gets the middle character", function() {
-      expect(middle.getMiddle()).toBe(true);
+    it("returns a when given a", function() {
+      expect(middle.getMiddle("a")).toBe("a");
     });
   });
 });
