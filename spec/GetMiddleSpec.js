@@ -9,5 +9,9 @@ describe("Middle", function() {
     it("returns a when given a", function() {
       expect(middle.getMiddle("a")).toBe("a");
     });
+
+    it("returns b when given b", function() {
+      expect(middle.getMiddle("b")).toBe("b");
+    });
   });
 });

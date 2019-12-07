@@ -1,5 +1,5 @@
 function Middle() {}
 
-Middle.prototype.getMiddle = function() {
-  return "a";
+Middle.prototype.getMiddle = function(letter) {
+  return letter;
 };
